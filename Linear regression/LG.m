@@ -9,7 +9,7 @@ y = load('y.dat');
 m = length(x);
 
 figure;
- scatter (x, y, 7, 'b', "filled");
+ scatter (x, y, 7, 'b', 'filled');
 hold on;
 
 x = [ones(m,1) x];
@@ -26,7 +26,7 @@ end;
 
 theta
 
-plot(x(:,2), x*theta' ,'r', "linewidth", 3)
+plot(x(:,2), x*theta' ,'r', 'linewidth', 3)
 
 [1,3.5]*theta'
 [1,  7]*theta'
